@@ -1,0 +1,23 @@
+html,body{
+    background-color: white;
+    margin: 5px;
+}
+
+#email-template{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.compose{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    margin: 25px 0px 25px 0px;
+    width: 150px;
+}
+
+#nav {
+    
+}
