@@ -16,25 +16,28 @@
     <div  id="email-template" class="container-fluid">
       <div class="row">
           <div id="nav" class="col-12 col-lg-3">
-            <div class="col name">
-              <h6>Welcome, Back!</h6>
+            <div class="row greeting">
+             
+              <div class="col name">
+                <h6>Welcome, Back!</h6>
+              </div>
             </div>
-
             <button class="compose">COMPOSE</button>
 
-            <li class="menu">
+            <ui class="menu">
                 <li>Inbox (1)</li>
                 <li>Tagged</li>
                 <li>Important</li>
                 <li>Sent Mail</li>
                 <li>Drafts</li>
                 <li>Trash</li>
-            </li>      
+            </ui>      
           </div> <!-- first col -->
 
           <div id="emails" class="col-12 col-lg-4">
             <div class="search">
-              <input type="search" placeholder="Search for emails"> 
+              <button type="submit"><i class="fa fa-search"></i></button>
+              <input type="search" placeholder="Search for emails">
             </div>
           
             <div class="message">

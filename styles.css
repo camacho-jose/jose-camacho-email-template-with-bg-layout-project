@@ -1,5 +1,5 @@
 html,body{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 5px;
 }
 
@@ -9,15 +9,67 @@ html,body{
     height: 100vh;
 }
 
-.compose{
-    background-color: orange;
+.compose {
+    background-color: rgb(255, 165, 0);
     border-radius: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
     height: 40px;
     margin: 25px 0px 25px 0px;
     width: 150px;
 }
 
-#nav {
-    
+menu button {
+    position: left top;
 }
+
+#nav {
+    background-color: rgb(0, 100, 0);
+    color: rgb(255, 255, 255);
+    display: flex; 
+    flex-direction: column;
+    padding: 20px;
+}
+
+.menu :hover {
+    color: rgb(211, 211, 211);
+}
+
+#emails {
+    background-color: rgb(247, 247, 228);
+    display: flex;
+    flex-direction: column;
+    min-width: min-content;
+    padding: 20px;
+}
+
+.search {
+    display: flex;
+    color: rgb(119, 136, 153);
+    padding-bottom: 55px;
+}
+
+.search input {
+    border: none;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.search button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    border: none;
+}
+
+.message {
+    border: 1px ridge rgb(111, 78, 55);;
+    margin: 10px 0px 10px 0px;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
